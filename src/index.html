@@ -5,7 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="bg-neutral-1000 text-neutral-50 p-page">
+    <div class="flex gap-[100px]">
+      <div>
+        <img src="../public/images/login-frame-27180.svg" alt="login" />
+      </div>
+      <div class="px-[28px] h-[354px]">
+        <div class="font-inter font-bold flex flex-col gap-3">
+          <h1 class="text-5xl">Happening now</h1>
+          <h2 class="text-[26px]">Join today.</h2>
+        </div>
+        <div class="flex flex-col gap-10 my-10">
+          <button
+            type="button"
+            class="bg-neutral-50 w-full px-6 py-2 rounded-button font-inter font-bold text-base hover:cursor-pointer hover:bg-neutral-200 text-neutral-1000 shadow-button"
+          >
+            Create account
+          </button>
+          <div class="flex items-center gap-1">
+            <hr class="w-full" />
+            <p class="text-base">or</p>
+            <hr class="w-full" />
+          </div>
+        </div>
+        <div class="flex flex-col gap-5">
+          <p class="font-medium text-xl">Already have an account?</p>
+          <button
+            type="button"
+            class="border border-button-stroke hover:cursor-pointer text-twitter-blue-default font-inter font-bold text-base px-6 py-2 rounded-button w-full"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
